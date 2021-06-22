@@ -8,9 +8,9 @@ The proposed latent domain compression of individual frames is obtained by an au
 
 ## Architecture
 The detailed neural network structure of our predictor model.
-![Predictor architecture](https://github.com/BowenL0218/Video-compression/blob/main/Images/predictor.png)
+![Predictor architecture](https://github.com/BowenL0218/Video_Compression/blob/main/Images/predictor.png)
 The detailed neural network structure of our decoder model.
-![Decoder architecture](https://github.com/BowenL0218/Video-compression/blob/main/Images/decoder.png)
+![Decoder architecture](https://github.com/BowenL0218/Video_Compression/blob/main/Images/decoder.png)
 
 ## Datasets
 In order to use the datasets used in the paper, please download the [UVG dataset](https://media.withyoutube.com/), the [Kinetics dataset](https://deepmind.com/research/open-source/kinetics), the [VTL dataset](http://trace.eas.asu.edu/index.html), and the [UVG dataset](http://ultravideo.fi/).
