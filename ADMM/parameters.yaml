@@ -1,0 +1,42 @@
+# ===================
+# solver configuration
+# ====================
+
+# number of gpus to use, this will be ignored if we're not using multi-gpu training
+num_gpus: 1
+
+num_epochs: 800
+num_samples_per_epoch: 50000
+
+# run validation every N steps
+vld_iter: 500
+
+# checkpoints every N steps
+checkpoint_iter: 500
+
+# directory
+experiment_dir: '[Location]]/ADMM_network_compression/train_experiment'
+checkpoint_dir: '[Location]]/ADMM_network_compression/train_ckpt'
+
+# path to pre-trained weights to initialize model with before training
+pretrained_weights: '[Location]]/ADMM_network_compression/train_ckpt'
+
+
+# ============
+# model config
+# ============
+batch_size: 256
+num_classes: 10
+learning_rate: 0.001
+data_dims: [32, 32, 3]
+weight_decay: 0.0001
+
+
+# =================
+# retraining config
+# =================
+retraining_learning_rate: 0.001
+load_checkpoint_dir: '[Location]/ADMM_network_compression/train_ckpt'
+retrain_ckpt_dir: '[Location]/ADMM_network_compression/prune_ckpt'
+
+
