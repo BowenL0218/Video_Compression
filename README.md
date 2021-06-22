@@ -4,7 +4,7 @@ Codes for [Deep Learning in Latent Space for Video Prediction and Compression](h
 # Introduction and Framework
 The proposed latent domain compression of individual frames is obtained by an auto-encoder DNN trained with a generative adversarial network (GAN) framework. To exploit the temporal correlation within the video frame sequence, we employ a convolutional long short-term memory (ConvLSTM) network to predict the latent vector representation of the future frame.
 
-![Flow chart](https://github.com/BowenL0218/BPGAN/blob/main/Images/flow_chart.png)
+![Flow chart](https://github.com/BowenL0218/Video_Compression/blob/main/Images/flow_chart.png)
 
 ## Architecture
 The detailed neural network structure of our predictor model.
